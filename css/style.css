@@ -53,7 +53,7 @@ h1, h4, h5, h6 {
 
 h2{
     color: #000;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 200;
   margin: 0 0 20px 0;
 }
@@ -147,7 +147,7 @@ figure {
     #colorlib-aside #colorlib-logo a {
       display: block;
       text-align: center;
-      color: #000;
+      color: #fff;
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
@@ -208,7 +208,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #2c98f0; }
+          color: #ffffff; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -1549,3 +1549,14 @@ footer{
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+a#mail:hover {
+  background-color: white
+}
+
+a#location:hover {
+  background-color: white
+}
+
+
+/* canvas */
