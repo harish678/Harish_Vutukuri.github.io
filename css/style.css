@@ -165,7 +165,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -222,7 +222,7 @@ figure {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     padding: 0 20px;
-    width: 100%;}
+    width: 80%;}
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: fixed; } }
@@ -247,6 +247,7 @@ figure {
 #rcorners2 {
     border-radius: 15px;
   background: black;
+  margin: auto;
   padding: 20px; 
   width: 50%;
   height: 40px; 
@@ -407,7 +408,7 @@ body.offcanvas {
     transform: translateX(300px); }
 
 .colorlib-narrow-content {
-  padding: 0 4.5em; }
+  padding: 0 1.5em; }
   @media screen and (max-width: 878px) {
     .colorlib-narrow-content {
         width: 100%;
@@ -1519,14 +1520,14 @@ align-items: stretch;}
 /*-----------------footer---------------------*/
 
 footer h1{
-    color: #FA3675;
+    color: rgb(163, 18, 61);
     text-align: center;
     font-size: 40px;
     font-weight: 400;
     font-family:inherit;
 }
 footer p{
-    color: #FA3675;
+    color: rgb(163, 18, 61);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -1535,7 +1536,7 @@ footer p{
 footer i{
     font-size: 3em;
     text-align: center;
-    color: #FA3675;
+    color: rgb(163, 18, 61);
     font-weight: 400;
     margin-right: 20px;
     margin-left: 20px;
