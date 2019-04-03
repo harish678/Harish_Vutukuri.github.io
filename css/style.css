@@ -1858,3 +1858,19 @@ color: #0077B5
 .fab.fa-instagram:hover{
   color: rgb(63,114,155, 0.60)
 }
+
+#hello{
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: .15em solid orange;
+	animation: typewriter 3s steps(60) 1s 1 normal both,
+			   blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+	from{width: 0;}
+	to{width: 12.2em;}
+  }
+  @keyframes blinkTextCursor{
+	from{border-right-color: orange;}
+	to{border-right-color: transparent;}
+  }
